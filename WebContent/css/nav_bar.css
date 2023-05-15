@@ -1,0 +1,139 @@
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    /*background-color: rgba(86, 21, 148, 0.4);*/
+    background-image: linear-gradient(to left, rgba(18, 8, 48, 0.5), rgba(18, 8, 48, 0.849));
+    width: 100%;
+    font-size: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    max-width: 70%;
+}
+
+.navbar li {
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.navbar li:last-child button {
+    background-color: rgb(255, 255, 255);
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: gray;
+    font-size: 150%;
+}
+
+.navbar li:last-child input {
+    border-style: solid;
+}
+
+.navbar li:last-child form button {
+    background-color: rgb(240, 235, 235);
+    font-size: 100%;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.logo {
+    margin-left: 5rem;
+}
+
+.logo a {
+    color: white;
+    font-size: 15px;
+}
+
+
+/*search-bar */
+
+.dropdown-menu {
+    left: auto;
+    top: 100%;
+}
+
+#dropdown-box {
+    left: auto;
+    top: 100%;
+    box-shadow: 3px 3px rgb(194, 191, 191);
+    background-color: rgb(255, 255, 255);
+}
+
+#logout_button {
+    font-size: 14px;
+    background-color: rgb(202, 227, 248);
+    box-shadow: lightgray;
+    padding: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+#delete_button {
+    font-size: 14px;
+    background-color: rgb(255, 75, 51);
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+
+/*
+.navbar li:nth-child(6) {
+    padding: 0.5rem;
+}
+
+*/
+
+
+/* last child */
+
+.navbar li:nth-child(5) button {
+    background-color: white;
+    padding: 0.5rem;
+}
+
+
+/* INSERT LOGO LATER!!!!! */
+
+.navbar li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.navbar li a:hover {
+    color: #10fdf5;
+}
+
+.navbar li input {
+    padding: 8px 13px;
+    border-radius: 30px;
+    border-style: hidden;
+    font-size: 13px;
+    width: 80%;
+}
+
+.navbar li button {
+    background-color: white;
+    border-style: hidden;
+    border-radius: 20px;
+    padding: 8px 8px;
+}
+
+.navbar li button:hover {
+    background-color: #10fdf5;
+    border-style: hidden;
+}

@@ -1,0 +1,402 @@
+    /*------------------------------------*/
+    /* BASIC SETUP */
+    /*------------------------------------*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: aliceblue;
+        color: rgb(77, 81, 85);
+        font-family: 'Lato', 'Arial', sans-serif;
+        font-weight: 200;
+        text-rendering: optimizeLegibility;
+    }
+    /*------------------------------------*/
+    /* COURSES */
+    /*------------------------------------*/
+    
+    .Years {
+        margin: 5rem;
+        padding: 2rem;
+        background-color: rgba(32, 14, 85, 0.5);
+        border: 2px;
+        border-color: rgb(193, 187, 197);
+        border-style: solid;
+        border-radius: 20px;
+    }
+    
+    .EachYear div a {
+        margin: 2rem;
+        text-decoration: none;
+        color: burlywood;
+        transition: color 1s;
+    }
+    
+    .EachYear div a:hover,
+    .EachYear div a:active {
+        color: indigo;
+        transition: color 1s;
+    }
+       
+.chat_container{
+        margin-left: 7%;
+        margin-top: 5px;
+    }
+    .chat span input{
+        padding:20px;
+        width:82%;
+        border-radius: 40px;
+        border-style: none;
+    }
+    .chat span button{
+        padding:20px;
+        width:10%;
+        border-radius: 40px;
+        background-color: white;
+        border-style: none;
+    }
+    
+    .EachYear {
+        margin-bottom: 2rem;
+        border-radius: 35px;
+        padding: 2rem;
+        border: 2px;
+        border-style: solid;
+        border-color: rgb(193, 187, 197);
+        background-color: aliceblue;
+    }
+    
+    .EachYear h2 {
+        text-shadow: white, 10px;
+        margin: 1rem;
+    }
+    
+    .Years div h1 {
+        margin-bottom: 2rem;
+        color: aliceblue;
+    }
+    /* ACCORDION*/
+    
+    .accordion_container {
+        background-color: transparent;
+        margin: 1rem 2rem;
+        padding: 0.5rem;
+    }
+    
+    .accordion_content {
+        padding: 1.5rem;
+        padding-top: 0;
+        height: fit-content;
+    }
+    
+    .accordion_content ul {
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .accordion_content h5 {
+        font-size: 1rem;
+        color: #8f6986;
+        transition: color 0.25s;
+    }
+    
+    .accordion_content h5:hover {
+        color: indianred;
+        transition: color 0.25s;
+    }
+    
+    .accordion_container h3 {
+        color: rgb(209, 153, 80);
+        margin: 1rem;
+        margin-bottom: 0;
+        padding: 0.5rem 1rem;
+        border: 1px;
+        font-size: 1.25rem;
+        border-style: solid;
+        border-color: rgb(193, 187, 197);
+        background-color: rgb(252, 246, 246);
+        border-radius: 50px;
+    }
+    
+    .accordion_container h2 {
+        color: indianred;
+        margin: 1rem;
+        padding: 0.5rem 0.5rem;
+        border: 1px;
+        font-size: 1.1rem;
+        border-style: solid;
+        border-color: rgb(193, 187, 197);
+        background-color: rgb(252, 246, 246);
+        border-radius: 50px;
+    }
+    /* review box*/
+    
+    .reviewForm form br {
+        margin: 1rem;
+    }
+    /* reviews*/
+    
+    .reviewHigh h2 {
+        transition: color 1s, background-color 1s
+    }
+    
+    .reviewHigh h2:hover,
+    .reviewHigh h2:active {
+        color: indigo;
+        background-color: gold;
+        transition: color 1s, background-color 1s;
+    }
+    /* tutor table*/
+    
+    .tutorsContainer {
+        padding-left: 2rem;
+    }
+    
+    .tutorsContainer table {
+        padding: 1rem;
+        background-color: transparent;
+    }
+    
+    .tutorsContainer td {
+        background-color: transparent;
+        padding-right: 3rem;
+        padding-left: 1rem;
+        border: 1px;
+        border-style: solid;
+    }
+    /*------------------------------------*/
+    /* REVİEWS */
+    /*------------------------------------*/
+    
+    .reviews {
+        padding: 2rem;
+        background-color: aliceblue;
+        border: 2px;
+        border-color: rgb(193, 187, 197);
+        border-style: solid;
+    }
+    
+    .outer_reviews_container h1 {
+        padding-bottom: 2rem;
+        color: aliceblue;
+    }
+    
+    .outer_reviews_container {
+        margin: 5rem;
+        padding: 2rem;
+        background-color: rgba(32, 14, 85, 0.5);
+        border: 2px;
+        border-color: rgb(193, 187, 197);
+        border-style: none;
+        border-radius: 20px;
+    }
+    
+    .outer_reviews_container h2 {
+        margin-bottom: 1rem;
+        color: white;
+        font-size: 140%;
+    }
+    
+    .reviews_container {
+        margin-bottom: 2rem;
+        border-radius: 35px;
+        padding: 2rem;
+        border: 2px;
+        border-style: none;
+        border-color: rgb(193, 187, 197);
+        background-color: aliceblue;
+    }
+    
+    .review_row {
+        border-style: none;
+        font-size: 20px;
+        background-color: transparent;
+    }
+    
+    .left {
+        border-right: solid;
+        border-width: 2px;
+    }
+    
+    .review_div {
+        border-spacing: 1rem;
+    }
+    
+    .review_row td:nth-child(2) {
+        padding-left: 3rem;
+    }
+    
+    .review_row td:nth-child(1) {
+        padding-right: 2rem;
+    }
+    
+    .review_row td {
+        margin-top: 2rem;
+    }
+    
+    .reviewForm form {
+        padding-left: 2rem;
+    }
+    
+    .reviewForm input {
+        margin: 0.5rem;
+        text-align: center;
+    }
+    
+    .review1Form form {
+        color: white;
+        padding-left: 2rem;
+    }
+    
+    .review1Form {
+        color: white;
+    }
+    
+    .review1Form h5 {
+        font-size: 110%;
+    }
+    
+    .review1Form input {
+        margin: 0.5rem;
+    }
+    
+    .review1Form input:nth-child(1) {
+        margin-top: 1rem;
+    }
+    
+    .courseSelect {
+        margin-bottom: 1rem;
+    }
+    /*
+    .comments {
+        margin: 2rem;
+    }
+    */
+    
+    .comments {
+        padding: 1rem;
+        border-spacing: 2rem;
+    }
+    
+    .get_review_button {
+        margin-top: 2rem;
+        border-radius: 50px;
+        background-color: rgba(139, 125, 151, 0.3);
+        padding: 0.5rem;
+        width: 10%;
+        border-style: solid;
+        border-color: transparent;
+        color: rgb(38, 34, 41);
+        transition: background-color 0.5s, color 0.5s;
+    }
+    
+    .get_review_button:hover,
+    .get_review_button:active {
+        background-color: rgb(75, 33, 114);
+        color: white;
+        transition: background-color 0.5s, color 0.5s;
+    }
+    
+    .thread-box {
+        border-style: solid;
+        border-radius: 30px;
+        border-color: rgb(212, 209, 209);
+    }
+    /*------------------------------------*/
+    /* CLUBS */
+    /*------------------------------------*/
+    
+    .Clubs {
+        margin: 5rem;
+        padding: 2rem;
+        background-color: rgba(32, 14, 85, 0.5);
+        border: 2px;
+        border-color: rgb(193, 187, 197);
+        border-style: solid;
+        border-radius: 20px;
+    }
+    
+    .EachClub {
+        margin-bottom: 2rem;
+        border-radius: 35px;
+        padding: 1rem;
+        border: 2px;
+        border-style: solid;
+        border-color: rgb(193, 187, 197);
+        background-color: aliceblue;
+        width: 49%;
+        display: inline-block;
+    }
+    
+    .EachClub a {
+        color: black;
+        margin: 1rem;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    
+    .EachClub a:hover,
+    .EachCLub a:active {
+        color: burlywood;
+        transition: color 0.5s;
+    }
+    
+    .Clubs div h1 {
+        margin-bottom: 4rem;
+        color: aliceblue;
+    }
+    /*------------------------------------*/
+    /* Thread replies */
+    /*------------------------------------*/
+    
+    .replyForm h5 {
+        color: white;
+        margin-bottom: 0.5rem;
+        font-size: 110%;
+    }
+    /*------------------------------------*/
+    /* Thread */
+    /*------------------------------------*/
+    
+    .newThreadForm h5 {
+        font-size: 110%
+    }
+    
+    .newThreadForm {
+        color: white;
+        padding-left: 2rem;
+    }
+    
+    .newThreadForm input {
+        margin: 0.5rem;
+    }
+    
+    .newThreadForm input:nth-child(1) {
+        margin-top: 1rem;
+    }
+    
+    .EachClubThread {
+        margin-bottom: 2rem;
+        border-radius: 35px;
+        padding: 1rem;
+        border: 2px;
+        border-style: solid;
+        background-color: aliceblue;
+    }
+    
+    .EachClubThread a {
+        color: black;
+        margin: 1rem;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    
+    .EachClubThread a:hover,
+    .EachCLubThread a:active {
+        color: burlywood;
+        transition: color 0.5s;
+    }

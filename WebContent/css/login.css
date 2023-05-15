@@ -1,0 +1,86 @@
+    body {
+        background-color: rgba(18, 8, 48, 0.5);
+    }
+    
+    #title {
+        display: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-top: 5rem;
+    }
+    
+    .page_container {
+        display: center;
+        margin: 5rem;
+        align-items: center;
+        text-align: center;
+        border-style: solid;
+        border-radius: 50px;
+        padding: 40px 50px;
+        border-color: rgb(207, 207, 207);
+        background-color: aliceblue;
+    }
+    
+    .font-weight-bold {
+        font-size: 25px;
+    }
+    
+    .input_username {
+        margin-top: 2rem;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 50px;
+        border-color: white;
+        border-style: solid;
+    }
+    
+    .input_password {
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 50px;
+        border-color: white;
+        border-style: solid;
+    }
+    
+    .form_container {
+        padding: 4rem;
+        margin: 2rem;
+    }
+    
+    .form_container form div {
+        padding: 30px 50px;
+    }
+    
+    .form_container form div input {
+        border-radius: 30px;
+    }
+    
+    .form_container form div span {
+        border-radius: 30px;
+        padding: 20px;
+    }
+    /* SIGN IN BUTTON */
+    
+    .input_signIn {
+        margin-top: 2rem;
+        border-radius: 50px;
+        background-color: rgba(139, 125, 151, 0.3);
+        padding: 0.5rem;
+        width: 20%;
+        border-style: solid;
+        border-color: transparent;
+        color: rgb(38, 34, 41);
+        transition: background-color 1s, color 1s;
+    }
+    
+    .input_signIn:hover,
+    .input_signIn:active {
+        background-color: rgb(65, 37, 97);
+        color: white;
+        transition: background-color 1s, color 1s;
+    }
+    
+    .link_to_signup a {
+        text-decoration: none;
+    }
